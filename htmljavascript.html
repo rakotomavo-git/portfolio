@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <title> Voici une page contenant du Javascript</title>
+        <script type="text/javascript" src="js/jquerry.js">
+        </script>
+        <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="test"></div>
+        <div class="main_card">
+
+            <button class="add_card_button">Ajouter une carte</button>
+
+            <div class="item_card">
+
+                <h1 id="left"> 
+                    Soyez éclairé quand vous passez et surprenez les passages inattendus pour votre sécurité grâce à nos lampes solaires avec détecteur de mouvement (panneau solaire incorporé) !
+                </h1>
+                <p>Contenu de la carte</p>
+
+            </div>
+
+        </div>
+        <script>
+            // boiteAlert()
+        </script>
+        <script>
+            $(document).ready(function(){
+                $(".add_card_button").click(function() {
+                    $(".main_card").append("<div class='item_card'><h1>Carte</h1><p>  Soyez éclairé quand vous passez et surprenez les passages inattendus pour votre sécurité grâce à nos lampes solaires avec détecteur de mouvement (panneau solaire incorporé) ! </p></div>")
+                })
+            });
+        </script>
+        <div class="container">
+
+            <div class="slider">
+
+              <ul class="slides">
+
+                <li class="slide"><img src="https://unsplash.it/1280/720/?image=120" /></li>
+
+                <li class="slide"><img src="https://unsplash.it/1280/720/?image=70" /></li>
+
+                <li class="slide"><img src="https://unsplash.it/1280/720/?image=50" /></li>
+
+                <li class="slide"><img src="https://unsplash.it/1280/720/?image=170" /></li>
+
+                <li class="slide"><img src="https://unsplash.it/1280/720/?image=190" /></li>
+
+              </ul>
+
+            </div>
+            <div class="buttons">
+
+                <button type="button" class="pause">
+  
+                  Pause
+  
+                </button>
+  
+                <button type="button" class="play">
+  
+                  Play
+  
+                </button>
+  
+              </div>
+  
+          </div>
+    </body>
+</html>

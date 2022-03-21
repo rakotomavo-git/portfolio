@@ -1,0 +1,56 @@
+#date {
+    color: #C3EDF7;
+    font-size: 22;
+    padding-left: 65%;
+}
+#prenom2 {
+    color: #AB657E;
+    font-style: italic;
+}
+#identite, #projet {
+    margin-bottom: 30px;
+}
+#identite {
+    margin-top: 40px;
+    color: #AB657E;
+    font-size: 36;
+    background-color: #ffffff;
+}
+#pdp {
+    border-top-right-radius: 20%;
+}
+#titre{
+    color: #5499AB;
+    font-size: 24;
+}
+
+.card-body{
+    justify-items: center;
+    color: #044C5C;
+}
+.card-text {
+    font-size: 18;
+    color: #044C5C;
+}
+.card-title {
+    font-size: 28;
+    color: #067790;
+}
+
+#realisation, #techno{
+    color: #AB657E;
+    font-size: 36;
+    margin-right: 200px;
+}
+body{
+    background-color: #ffffff;
+}
+#annuaireE {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#btCV{
+    color: #067790;
+    background-color: #ffffff;
+    font-size: 22;
+}

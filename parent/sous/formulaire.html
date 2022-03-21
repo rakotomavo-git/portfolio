@@ -1,0 +1,140 @@
+<html>
+    <head>
+        <title>
+            Milieu
+        </title>
+        <meta charset="utf-8">
+        <meta name="description" content="Ici on indiquera la description">
+    </head>
+    <body>
+        <form method="post" target="parent.html">
+            <label for="nom"> Nom </label>
+            <input type="text" name="nom" placeholder="Nom">
+            <label for="pwd"> Mot de passe</label>
+            <input type="password" name="pwd" placeholder="Mot de passe"> 
+            <button type="submit"> Envoyer </button>
+        </form>
+        
+        <form action="" method="post">  
+            <fieldset style="background-color: rgba(255, 255, 0, 0.404);">
+                <legend style="background-color:yellow;"> <b> Clients </b></legend>
+                <center></center>          
+                <table width="600" >
+                    <tr>
+                        <td>
+                            <b> Civilité </b>
+                        </td>
+                        <td rowspan="10">
+
+                        </td>
+                        <td>
+                            <input type="radio" name="civilite" value="Mademoiselle" id="Mademoiselle">
+                            <label for="mademoiselle"> Mademoiselle </label>
+
+                            <input type="radio" name="civilite" value="Madame" id="Madame">
+                            <label for="madame"> Madame </label>
+
+                            <input type="radio" name="civilite" value="Monsieur" id="Monsieur">
+                            <label for="monsieur"> Monsieur </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <b> Nom/Prénom </b>
+                        </td>
+                        <td>
+                            <input type="text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <b> Adresse </b>
+                        </td>
+                        <td>
+                            <textarea name="adresse" id="" cols="50" rows="5" > Rue No
+        Boîtes postales
+                            </textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <b>
+                                No postal/Localité
+                            </b>
+                        </td>
+                        <td>
+                            <input type="text">
+                            <input type="text" value="Lausanne">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <b>
+                                Pays
+                            </b>
+                        </td>
+                        <td>
+                            <select name="pays" id="pays">
+                                <option value="Italie"> Italie </option>
+                                <option value="France"> France </option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Plateforme(s)
+                        </td>
+                        <td>
+                            <input type="checkbox" name="windows" id="windows" value="windows">
+                            <label for="windows"> Windows </label>
+                            <input type="checkbox" name="macintosh" id="macintosh" value="macintosh">
+                            <label for="macintosh"> Macintosh </label>
+                            <input type="checkbox" name="unix" id="unix" value="unix">
+                            <label for="unix"> Unix </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Application(s)
+                        </td>
+                        <td>
+                            <select name="Application" id="Application" multiple="yes">
+                              <option value="bureautique">Bureautique</OPtion>
+                              <option value="dao"> DAO </option>
+                              <option value="statistique"> Statistique</option>
+                              <option value="sgbd"> SGBD </option>
+                              <option value="internet"> Internet </option>
+                            </select>
+                        </td>
+                    </tr>
+
+                </table>
+            </fieldset>
+            <table width="600">
+                <tr>
+                    <div> 
+                        <margin-right>
+                            <td align="right">
+                                <button type="submit" align="right">
+                                    Soumettre formulaire
+                                </button>
+                                <button type="reset">
+                                    Effacer
+                                </button>
+                            </td
+                        </margin-right>
+                        <td align="right">
+                            <button type="submit" align="right">
+                                Soumettre formulaire
+                            </button>
+                            <button type="reset">
+                                Effacer
+                            </button>
+                        </td>
+                    </div>
+                    
+                </tr>
+            </table> 
+        </form>
+    </body>
+</html>
